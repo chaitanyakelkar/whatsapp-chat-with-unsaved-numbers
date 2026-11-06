@@ -1,4 +1,8 @@
-# WhatsApp Chat with Unsaved Numbers
+<p align="center">
+  <img src="docs/icon.png" width="128" alt="App icon: a white speech bubble with a green plus sign">
+</p>
+
+<h1 align="center">WhatsApp Chat with Unsaved Numbers</h1>
 
 An Android app that opens a WhatsApp chat with any phone number, without saving it as a contact first.
 
@@ -112,6 +116,10 @@ app/src/test/.../PhoneNumbersTest.kt   Unit tests for the number logic
 - [Kotlin](https://kotlinlang.org/) and [Jetpack Compose](https://developer.android.com/compose) with Material 3
 - Google's [libphonenumber](https://github.com/google/libphonenumber) for per-country number rules
 - WhatsApp's [click to chat](https://faq.whatsapp.com/5913398998672934) links (`wa.me`)
+
+## License
+
+Released under the [MIT License](LICENSE).
 
 ## Disclaimer
 
