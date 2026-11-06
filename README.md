@@ -11,6 +11,11 @@ Normally you would have to open a browser, type `https://wa.me/<countrycode><num
   <img src="docs/screenshots/04-search.png" width="210" alt="Country picker filtered by the search text uni">
 </p>
 
+<p>
+  <img src="docs/screenshots/05-validation.png" width="210" alt="Dark theme with a five digit number and a 5 of 10 digit counter for India">
+  <img src="docs/screenshots/06-dark.png" width="210" alt="Dark theme with a valid number, a Looks good message and the Open in WhatsApp button enabled">
+</p>
+
 The numbers in these screenshots are fictional examples.
 
 ## Features
