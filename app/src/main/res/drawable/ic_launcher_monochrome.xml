@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Themed icon (Android 13+): bubble with the "+" cut out -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M40,32H68A10,10 0,0 1,78 42V60A10,10 0,0 1,68 70H49L37,79V70.2A10,10 0,0 1,30 60V42A10,10 0,0 1,40 32Z M52,41.5v7.5h-7.5v4h7.5v7.5h4v-7.5h7.5v-4h-7.5v-7.5z" />
+</vector>

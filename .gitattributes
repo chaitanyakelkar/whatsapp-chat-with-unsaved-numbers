@@ -1,0 +1,7 @@
+# Normalize line endings, keeping the Gradle wrapper scripts runnable on every OS
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.webp binary
+*.jar binary
