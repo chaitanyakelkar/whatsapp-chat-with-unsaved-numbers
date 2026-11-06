@@ -4,19 +4,20 @@ An Android app that opens a WhatsApp chat with any phone number, without saving 
 
 Normally you would have to open a browser, type `https://wa.me/<countrycode><number>` and get the format exactly right. This app does that for you: enter, paste or share a number and tap one button.
 
-<p>
-  <img src="docs/screenshots/01-home.png" width="210" alt="Home screen with India selected and an empty phone number field">
-  <img src="docs/screenshots/02-detected.png" width="210" alt="A shared +1 number with United States selected and the country code removed from the field">
-  <img src="docs/screenshots/03-picker.png" width="210" alt="Country picker with a search bar and a list of flags and calling codes">
-  <img src="docs/screenshots/04-search.png" width="210" alt="Country picker filtered by the search text uni">
-</p>
+<table>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/1-home.png" alt="Home screen with India selected, split between light and dark themes"><br><sub>Home screen</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/4-detected.png" alt="A +1 number with United States selected and the country code removed, split between light and dark themes"><br><sub>Country detected from the number</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/2-too-short.png" alt="A five digit Indian number with a 5 of 10 digit counter, split between light and dark themes"><br><sub>Digit counter while typing</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><img src="docs/screenshots/3-too-long.png" alt="A fourteen digit number with a red Too long for India error, split between light and dark themes"><br><sub>Too many digits</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/5-picker.png" alt="Country picker with a search bar and flags, split between light and dark themes"><br><sub>Country picker</sub></td>
+    <td align="center" width="33%"><img src="docs/screenshots/6-search.png" alt="Country picker filtered by the search text uni, split between light and dark themes"><br><sub>Search by name or code</sub></td>
+  </tr>
+</table>
 
-<p>
-  <img src="docs/screenshots/05-validation.png" width="210" alt="Dark theme with a five digit number and a 5 of 10 digit counter for India">
-  <img src="docs/screenshots/06-dark.png" width="210" alt="Dark theme with a valid number, a Looks good message and the Open in WhatsApp button enabled">
-</p>
-
-The numbers in these screenshots are fictional examples.
+Each image shows the light theme on the left and the dark theme on the right. Full versions are in [`light`](docs/screenshots/light) and [`dark`](docs/screenshots/dark). The numbers shown are examples, not real contacts.
 
 ## Features
 
