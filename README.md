@@ -59,13 +59,20 @@ Text from the clipboard is only used if it contains a fully valid number, so thi
 
 ## Installation
 
-There is no prebuilt release yet, so build the app from source.
+**[Download the latest APK](https://github.com/chaitanyakelkar/whatsapp-chat-with-unsaved-numbers/releases/latest/download/WhatsappChatOpen.apk)** for Android 7.0 or newer. Older versions are on the [releases page](https://github.com/chaitanyakelkar/whatsapp-chat-with-unsaved-numbers/releases). You also need WhatsApp or WhatsApp Business on the phone to open chats in the app.
+
+1. Download the APK on your phone and open it.
+2. If asked, allow your browser or file manager to install unknown apps. Google Play Protect may show a warning because the app isn't from the Play Store.
+3. Open **Chat on WhatsApp**.
+
+To update, download the newest APK and install it over the old one. The app doesn't update itself.
+
+### Build from source
 
 **Requirements**
 
 - Android Studio, or the Android SDK with API level 37
 - A device or emulator running Android 7.0 (API 24) or newer
-- WhatsApp or WhatsApp Business on the device, to open chats in the app
 
 **From Android Studio:** open the project, choose your device and press **Run**.
 
@@ -84,6 +91,8 @@ To run the unit tests:
 ```bash
 ./gradlew testDebugUnitTest
 ```
+
+To sign a release build, copy `keystore.properties.example` to `keystore.properties`, which git ignores, and fill in your own key. Without it, `assembleRelease` produces an unsigned APK that Android won't install.
 
 ## Privacy
 
