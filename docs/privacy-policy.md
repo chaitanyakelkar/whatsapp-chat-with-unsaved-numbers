@@ -2,7 +2,7 @@
 
 **Effective date:** November 9, 2026
 
-This policy explains how the Android app **Chat on Whatsapp** (package `com.cakelkar.whatsappchatopen`), made by Chaitanya Kelkar, handles your information. The app lets you open a WhatsApp chat with a phone number without saving it as a contact.
+This policy explains how the Android app **Chat on Whatsapp** (package `com.cakelkar.chatonwhatsapp`), made by Chaitanya Kelkar, handles your information. The app lets you open a WhatsApp chat with a phone number without saving it as a contact.
 
 ## Summary
 

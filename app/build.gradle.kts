@@ -24,7 +24,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.cakelkar.whatsappchatopen"
+        applicationId = "com.cakelkar.chatonwhatsapp"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
