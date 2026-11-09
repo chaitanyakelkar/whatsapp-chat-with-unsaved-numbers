@@ -1,8 +1,3 @@
----
-title: Privacy Policy
-permalink: /privacy-policy/
----
-
 # Privacy Policy for Chat on Whatsapp
 
 **Effective date:** November 9, 2026
