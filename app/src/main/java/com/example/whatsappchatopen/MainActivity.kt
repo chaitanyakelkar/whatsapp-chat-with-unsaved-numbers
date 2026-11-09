@@ -117,7 +117,7 @@ fun ChatOpenerScreen(sharedText: String?, onSharedTextConsumed: () -> Unit) {
         return false
     }
 
-    // Share / "Chat on WhatsApp" from the text-selection menu.
+    // Share / "Chat on Whatsapp" from the text-selection menu.
     LaunchedEffect(sharedText) {
         val text = sharedText ?: return@LaunchedEffect
         onSharedTextConsumed()

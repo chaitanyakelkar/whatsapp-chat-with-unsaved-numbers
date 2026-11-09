@@ -29,7 +29,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
-            <!-- "Chat on WhatsApp" in the text-selection menu -->
+            <!-- "Chat on Whatsapp" in the text-selection menu -->
             <intent-filter>
                 <action android:name="android.intent.action.PROCESS_TEXT" />
                 <category android:name="android.intent.category.DEFAULT" />

@@ -29,7 +29,7 @@ Each image shows the light theme on the left and the dark theme on the right. Fu
 - **Clipboard check on open:** if the current clipboard entry is a valid phone number, it is filled in for you. Only the current entry is read, not any clipboard history.
 - **Validation per country:** the digit count is checked against each country's own rules, so India expects 10 digits and Singapore expects 8.
 - **Opens in the WhatsApp app:** it goes to WhatsApp, then WhatsApp Business, and uses the browser only if neither is installed.
-- **Share and text selection:** share a number from any app, or select one and choose **Chat on WhatsApp** from the selection menu.
+- **Share and text selection:** share a number from any app, or select one and choose **Chat on Whatsapp** from the selection menu.
 - **Open automatically (optional):** skip the button when a valid number is pasted, shared or copied. It is off by default.
 - **Searchable country list:** search by country name or calling code.
 - **Light and dark themes:** the app follows your system setting.
@@ -63,7 +63,7 @@ Text from the clipboard is only used if it contains a fully valid number, so thi
 
 1. Download the APK on your phone and open it.
 2. If asked, allow your browser or file manager to install unknown apps. Google Play Protect may show a warning because the app isn't from the Play Store.
-3. Open **Chat on WhatsApp**.
+3. Open **Chat on Whatsapp**.
 
 To update, download the newest APK and install it over the old one. The app doesn't update itself.
 
@@ -95,6 +95,8 @@ To run the unit tests:
 To sign a release build, copy `keystore.properties.example` to `keystore.properties`, which git ignores, and fill in your own key. Without it, `assembleRelease` produces an unsigned APK that Android won't install.
 
 ## Privacy
+
+Read the full [privacy policy](https://chaitanyakelkar.github.io/whatsapp-chat-with-unsaved-numbers/privacy-policy/).
 
 - The app has no internet permission, analytics or accounts, and asks you for no permissions.
 - Your choice of country and your settings are stored on the device. So is the last copied text that was opened automatically, which prevents opening the same number again on every launch. Android's standard app backup can include this data.
