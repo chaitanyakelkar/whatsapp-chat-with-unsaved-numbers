@@ -96,7 +96,7 @@ To sign a release build, copy `keystore.properties.example` to `keystore.propert
 
 ## Privacy
 
-Read the full [privacy policy](https://chaitanyakelkar.github.io/whatsapp-chat-with-unsaved-numbers/privacy-policy/).
+Read the full [privacy policy](https://github.com/chaitanyakelkar/whatsapp-chat-with-unsaved-numbers/blob/main/docs/privacy-policy.md).
 
 - The app has no internet permission, analytics or accounts, and asks you for no permissions.
 - Your choice of country and your settings are stored on the device. So is the last copied text that was opened automatically, which prevents opening the same number again on every launch. Android's standard app backup can include this data.
